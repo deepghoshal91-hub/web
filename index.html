@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="SPPL - Suryadipta Projects Pvt. Ltd. Leading the way in heavy engineering, shipbuilding, offshore engineering, and industrial fabrication in India.">
+    <title>SPPL | Heavy Engineering, Shipbuilding & Offshore Engineering</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts: Inter (Body) & Outfit (Heading) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- SEO Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Suryadipta Projects Pvt. Ltd. (SPPL)",
+      "url": "https://www.sppl.com",
+      "logo": "https://www.sppl.com/images/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-123-456-7890",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/sppl"
+      ]
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="header-top d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="me-3"><i class="fas fa-envelope text-orange me-2"></i> info@sppl.com</span>
+                    <span><i class="fas fa-phone-alt text-orange me-2"></i> +91 98765 43210</span>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="careers.html" class="me-3">Careers</a>
+                    <a href="media.html" class="me-3">Media</a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="ms-2"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo/logo.webp" alt="SPPL Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="capabilities.html" id="capabilitiesDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Capabilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="capabilitiesDropdown">
+                            <li><a class="dropdown-item" href="capabilities.html#shipbuilding">Shipbuilding</a></li>
+                            <li><a class="dropdown-item" href="capabilities.html#heavy-engineering">Heavy
+                                    Engineering</a></li>
+                            <li><a class="dropdown-item" href="capabilities.html#offshore">Offshore Engineering</a></li>
+                            <li><a class="dropdown-item" href="capabilities.html#fabrication">Industrial Fabrication</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="infrastructure.html">Infrastructure</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary-custom ms-lg-3 d-none d-lg-inline-flex">Inquire Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Swiper -->
+    <section class="hero-section">
+        <div class="swiper hero-swiper w-100 h-100 position-absolute top-0 start-0 z-0">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/index_page/hero_1.webp" alt="Shipyard" class="hero-bg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/index_page/hero_2.webp" alt="Heavy Engineering" class="hero-bg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/index_page/hero_3.webp" alt="Offshore Engineering" class="hero-bg">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next" style="color: var(--c-industrial-orange);"></div>
+            <div class="swiper-button-prev" style="color: var(--c-industrial-orange);"></div>
+        </div>
+
+        <div class="container hero-content" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="hero-title">Engineering Excellence. Global Scale.</h1>
+                    <p class="hero-subtitle">Suryadipta Projects Pvt. Ltd. (SPPL) is India's premier heavy engineering
+                        and shipbuilding corporation, delivering mega-projects with unmatched precision and quality.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="capabilities.html" class="btn btn-primary-custom">Explore Capabilities <i
+                                class="fas fa-arrow-right"></i></a>
+                        <a href="projects.html" class="btn btn-outline-custom text-white border-white">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Intro Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <h2 class="section-title">Building the Future of Heavy Industry</h2>
+                    <p class="mt-4 lead">With decades of expertise, SPPL operates at the forefront of India's
+                        manufacturing and infrastructure development.</p>
+                    <p class="text-secondary">We specialize in end-to-end solutions spanning from conceptual design to
+                        turnkey execution in shipbuilding, offshore platforms, and massive industrial fabrication. Our
+                        state-of-the-art facilities and uncompromising quality standards have made us the trusted
+                        partner for defence, government, and global private sectors.</p>
+
+                    <ul class="list-unstyled mt-4 mb-4">
+                        <li class="mb-2"><i class="fas fa-check-circle text-orange me-2"></i> World-class waterfront
+                            infrastructure</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-orange me-2"></i> ISO 9001, 14001, 45001
+                            Certified</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-orange me-2"></i> Defence and Marine
+                            approvals</li>
+                    </ul>
+
+                    <a href="about.html" class="btn btn-outline-custom">Read Our Story</a>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="position-relative">
+                        <img src="images/index_page/about_us.webp" alt="About SPPL" class="img-fluid rounded shadow-lg">
+                        <div class="position-absolute bottom-0 start-0 bg-navy text-white p-4 rounded shadow translate-middle-x d-none d-md-block"
+                            style="background-color: var(--c-navy-blue); margin-bottom: -30px; margin-left: 50px;">
+                            <h3 class="text-orange mb-0 stat-count" data-count="25">0</h3>
+                            <p class="mb-0">Years of Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Divisions Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Core Capabilities</h2>
+                <p class="section-subtitle">Delivering precision engineering across diverse sectors</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Capability 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="capability-card">
+                        <div class="capability-img">
+                            <img src="images/index_page/capability_1.webp" alt="Shipbuilding">
+                        </div>
+                        <div class="capability-body">
+                            <h3 class="capability-title">Shipbuilding</h3>
+                            <p class="text-secondary">Commercial and defense vessels, patrol boats, barges, and
+                                specialized marine craft built to global classification standards.</p>
+                            <a href="capabilities.html#shipbuilding" class="text-orange fw-bold">Read More <i
+                                    class="fas fa-angle-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Capability 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="capability-card">
+                        <div class="capability-img">
+                            <img src="images/index_page/capabilities_2.webp"
+                                alt="Heavy Engineering">
+                        </div>
+                        <div class="capability-body">
+                            <h3 class="capability-title">Heavy Engineering</h3>
+                            <p class="text-secondary">Manufacturing of pressure vessels, heat exchangers, heavy
+                                structurals, and complex equipment for core industries.</p>
+                            <a href="capabilities.html#heavy-engineering" class="text-orange fw-bold">Read More <i
+                                    class="fas fa-angle-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Capability 3 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="capability-card">
+                        <div class="capability-img">
+                            <img src="images/index_page/capability_3.webp"
+                                alt="Offshore Engineering">
+                        </div>
+                        <div class="capability-body">
+                            <h3 class="capability-title">Offshore Engineering</h3>
+                            <p class="text-secondary">Fabrication of offshore platforms, jackets, decks, and subsea
+                                structures for the global oil and gas sector.</p>
+                            <a href="capabilities.html#offshore" class="text-orange fw-bold">Read More <i
+                                    class="fas fa-angle-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="capabilities.html" class="btn btn-outline-custom">View All Capabilities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-item">
+                        <h3><span class="stat-count" data-count="150">0</span>+</h3>
+                        <p>Projects Delivered</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                        <h3><span class="stat-count" data-count="50">0</span>+</h3>
+                        <p>Global Clients</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                        <h3><span class="stat-count" data-count="1000">0</span>+</h3>
+                        <p>Skilled Workforce</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-item">
+                        <h3><span class="stat-count" data-count="500">0</span>K</h3>
+                        <p>Sq.m Facility Area</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h2 class="text-white m-0 mb-4 fw-bold">SPPL</h2>
+                    <p class="text-secondary" style="color: var(--c-steel-grey-light) !important;">Suryadipta Projects
+                        Pvt. Ltd. is a leading heavy engineering and shipbuilding corporation dedicated to executing
+                        mega projects with unmatched precision, quality, and scale.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3 fs-5"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white me-3 fs-5"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="capabilities.html">Capabilities</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="infrastructure.html">Infrastructure</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-heading">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="capabilities.html#shipbuilding">Shipbuilding</a></li>
+                        <li><a href="capabilities.html#heavy-engineering">Heavy Engineering</a></li>
+                        <li><a href="capabilities.html#offshore">Offshore Platforms</a></li>
+                        <li><a href="capabilities.html#fabrication">Industrial Fabrication</a></li>
+                        <li><a href="capabilities.html#epc">EPC Engineering</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <ul class="footer-links">
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-map-marker-alt text-orange mt-1 me-3"></i>
+                            <span class="text-secondary" style="color: var(--c-steel-grey-light) !important;">Plot No.
+                                45, Industrial Area, Phase II, Manufacturing District, India</span>
+                        </li>
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-phone-alt text-orange mt-1 me-3"></i>
+                            <span class="text-secondary" style="color: var(--c-steel-grey-light) !important;">+91 98765
+                                43210</span>
+                        </li>
+                        <li class="d-flex mb-3">
+                            <i class="fas fa-envelope text-orange mt-1 me-3"></i>
+                            <span class="text-secondary"
+                                style="color: var(--c-steel-grey-light) !important;">info@sppl.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2026 Suryadipta Projects Pvt. Ltd. (SPPL). All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
